@@ -60,5 +60,6 @@ export const login = async (req, res) => {
     message: "User logged in successfully",
     status: "success",
     token,
+    data: userExists.role,
   });
 };
