@@ -16,6 +16,7 @@ app.use("/api/auth", authRouter);
 app.use("/api/service", serviceRouter);
 app.use("/api/booking", bookingRouter);
 app.use("/api/admin", adminRouter);
+app.use("/api/admin", adminRouter);
 
 app.use(errorHandler);
 const PORT = process.env.PORT || 8081;
