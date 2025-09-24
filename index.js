@@ -18,7 +18,7 @@ app.use("/api/booking", bookingRouter);
 app.use("/api/admin", adminRouter);
 
 app.use(errorHandler);
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8081;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
   connectDB();
